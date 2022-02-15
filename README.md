@@ -1,5 +1,5 @@
 # Ultroid
-A WhatsApp User BOT 🌚🌝
+## A Coustomizable WhatsApp User BOT 🌚🌝
 
 <div>
 <div align="center">
