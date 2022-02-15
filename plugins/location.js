@@ -14,3 +14,5 @@ const Lang = Language.getString('locate'); // Language supp. 😉
         var i = Math.floor(2*Math.random()) // Random func. 🤪
 
         await message.sendMessage(`My Location! ${r_text[i]}`, MessageType.location); // It sends ur location. Cool tho 😱
+
+        }));
