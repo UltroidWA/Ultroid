@@ -1,7 +1,7 @@
 name: Mark Stale Issues and Pull Requests
 
 on:
-
+ 
   schedule:
 
   - cron: "30 1 * * *"
