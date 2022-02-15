@@ -5,5 +5,5 @@ WORKDIR /root/Ultroid/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
-## Ultroid
+## Ultroid 
 CMD ["node", "bot.js"]
