@@ -4,7 +4,7 @@ const fs = require('fs');
 const cnfg = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('admin');
-
+ 
 if (cnfg.WORKTYPE == 'private') {
 
     Ultroid.addCommand({pattern: 'admin$', fromMe: true, desc: Lang.ADMIN_DESC}, (async (message, match) => {    
