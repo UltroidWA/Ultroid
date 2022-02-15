@@ -1,15 +1,14 @@
-const Asena = require('../events');
+const Ultroid = require('../events');
 const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 const fs = require("fs")
-const asena = fs.readFileSync('./media/CyberQueen.mp3') 
 
 const Language = require('../language');
 const Lang = Language.getString('_asena');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'panel ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'panel ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -18,7 +17,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -52,7 +51,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -89,7 +88,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'panel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'panel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -98,7 +97,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -132,7 +131,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -167,7 +166,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'cpanel ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'cpanel ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -176,7 +175,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -210,7 +209,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -247,7 +246,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'cpanel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'cpanel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -256,7 +255,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -290,7 +289,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -325,7 +324,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'list ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'list ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -334,7 +333,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -368,7 +367,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -405,7 +404,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'list ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'list ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -414,7 +413,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -448,7 +447,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -483,7 +482,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'help ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'help ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -492,7 +491,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -526,7 +525,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -563,7 +562,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'help ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'help ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -572,7 +571,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -606,7 +605,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -641,7 +640,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'මෙනු ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'මෙනු ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -650,7 +649,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -684,7 +683,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -721,7 +720,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'මෙනු ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'මෙනු ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -730,7 +729,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -764,7 +763,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -799,7 +798,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'ලිස්ට් ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'ලිස්ට් ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -808,7 +807,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -842,7 +841,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -879,7 +878,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'ලිස්ට් ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'ලිස්ට් ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -888,7 +887,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -922,7 +921,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -957,7 +956,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'පැනල් ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'පැනල් ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -966,7 +965,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1000,7 +999,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1037,7 +1036,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'පැනල් ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'පැනල් ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -1046,7 +1045,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1080,7 +1079,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1115,7 +1114,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'පනෙල් ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'පනෙල් ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -1124,7 +1123,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1158,7 +1157,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1195,7 +1194,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'පනෙල් ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'පනෙල් ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -1204,7 +1203,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1238,7 +1237,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1273,7 +1272,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'ck ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'ck ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
  
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -1282,7 +1281,7 @@ if (Config.WORKTYPE == 'private') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1316,7 +1315,7 @@ if (Config.WORKTYPE == 'private') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1353,7 +1352,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'ck ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Ultroid.addCommand({pattern: 'ck ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -1362,7 +1361,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -1396,7 +1395,7 @@ else if (Config.WORKTYPE == 'public') {
                 return;
             }
             var CMD_HELP = '';
-            Asena.commands.map(
+            Ultroid.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
