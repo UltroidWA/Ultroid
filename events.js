@@ -1,6 +1,6 @@
 var config = require('./config');
 var Commands = [];
-
+ 
 function addCommand(info, func) {
     
     var types = ['photo', 'image', 'text', 'message'];
