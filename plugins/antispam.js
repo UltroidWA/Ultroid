@@ -12,7 +12,7 @@ const ADMIN = ".wakeup EMERGENCY!!🚨  |   🛑 GROUP UNDER ATTACK 🛑  |"
 const Language = require('../language');
 const Lang = Language.getString('tagall');
 
-
+ 
 
 Ultroid.addCommand({ pattern: 'wakeup ?(.*)', fromMe: true, deleteCommand: false, desc: Lang.TAGALL_DESC, dontAddCommandList: true }, (async (message, match) => {
 
