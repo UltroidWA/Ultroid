@@ -8,7 +8,7 @@ function infoMessage(msg) {
     return "⏺️ *Ultroid*:  ```" + msg + "```"
 }
 
-
+ 
 module.exports = {
     successfullMessage,
     errorMessage,
