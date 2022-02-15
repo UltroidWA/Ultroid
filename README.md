@@ -32,10 +32,9 @@
 
 [Ultroid](https://github.com/UltroidWA)  
    
-   
   [![NICO](https://github.com/sltechnicaltips.png?size=100)](https://github.com/SLTechnicalTips)
 
-[Nico @SL Technical Tips](https://github.com/sltechnicaltips)  
+[NICO](https://github.com/sltechnicaltips)  
   </div>
   
   
