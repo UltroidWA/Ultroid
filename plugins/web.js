@@ -6,7 +6,7 @@ const TinyURL = require('tinyurl');
 const Language = require('../language');
 const Lang = Language.getString('web');
 const SLang = Language.getString('webss');
-
+ 
 // https://github.com/ddsol/speedtest.net/blob/master/bin/index.js#L86
 function speedText(speed) {
     let bits = speed * 8;
