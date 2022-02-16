@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/UltroidWA/Ultroid#readme",
   "dependencies": {
+    "ultroid": "3.9.0",
     "@adiwajshing/baileys": "3.5.3",
     "@lh2020/speedtest-net": "^2.1.1",
     "browser-id3-writer": "^4.4.0",
