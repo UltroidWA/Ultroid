@@ -27,7 +27,7 @@
         },
         "admin": {
             "BAN_DESC": "Remove someone from the group. Reply to the message or tag a person to use the command.",
-            "IM_NOT_ADMIN": "*I am not the admin of this groupේ!*",
+            "IM_NOT_ADMIN": "*I am not the admin of this group!*",
             "BANNED": "Kicked out of the group!",
             "GIVE_ME_USER": "*Tag me a user!*",
             "ADD_DESC": "Adds someone to the group.",
@@ -220,7 +220,7 @@
             "INVALID_HEROKU": "*❌ Your HEROKU_API_KEY information is incorrect! https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy that API key and paste the Heroku config vars blank box.*",
             "UPDATED": "*✅ Successfully Updated!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 Ultroid ස්වයංක්‍රීයව නැවත ආරම්භ කරමින්!*"
+            "AFTER_UPDATE": "*💬 Ultroid Restarting automatically!*"
         },
         "weather": {
             "WEATHER_DESC": "The weather shows.",
@@ -383,7 +383,7 @@
         },
         "voicy": {
             "NEED_REPLY": "```Please refer to any message!```",
-            "ONLY_AUDIO":"```Only the audio file is acceptedේ.```",
+            "ONLY_AUDIO":"```Only the audio file is accepted.```",
             "USAGE": "Converts it to mp3 text.",
             "TEXT": "*Hey! I listened to this voice.:* \n\n"
         },
@@ -414,7 +414,7 @@
             "NOT_FOUND":"User not found: "
         },
         "github": {
-            "GİTHUB_DESC": "Github collects information from a given username.\n⌨️ Example: .github SLTechnicalTips",
+            "GİTHUB_DESC": "Github collects information from a given username.\n⌨️ Example: .github UltroidWA",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
