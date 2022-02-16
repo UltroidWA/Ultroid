@@ -72,7 +72,7 @@
             "MUST_TEXT": "```කරුණාකර ඕනෑම පණිවිඩයකට tag දෙන්න```"
         },
         "heroku": {
-            "RESTART_DESC": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ නැවත ආරම්භ කරන්න",
+            "RESTART_DESC": "නැවත ආරම්භ කරන්න",
             "RESTART_MSG": "```♻️ Restarting...```",
             "SHUTDOWN_DESC": "Shutdown",
             "SHUTDOWN_MSG": "```වසා දමයි ⛔```",
