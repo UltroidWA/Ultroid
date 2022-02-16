@@ -2,7 +2,7 @@
   "name": "Ultroid",
   "version": "4.0.0",
   "description": "Ultroid is A coustomizable Whatsapp userbot. ",
-  "main": "./CyberQueen/bot.js",
+  "main": "./Ultroid/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
