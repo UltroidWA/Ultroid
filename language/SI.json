@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "Sinhala",
     "LANGCODE": "si",
-    "AUTHOR": "CyberQueenDev",
+    "AUTHOR": "UltroidDev",
     "STRINGS": {
         "_asena": {
             "COMMAND": "විධානය",
@@ -474,7 +474,7 @@
             "SAVE_USAGE": "පණිවිඩයකට mention දී ටයිප් කරන්න .save හෝ භාවිතා කරන්න .save <ඔබේ සටහන>",
             "REPLY": "කරුණාකර සටහනක් හෝ පණිවිඩයකට mention දෙන්න.",
             "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
-            "UNSUCCESSFUL": "Could not add note, please try again later or contact Cyber Queen developers.",
+            "UNSUCCESSFUL": "Could not add note, please try again later or contact Ultroid developers.",
             "DELETE_USAGE": "ඔබගේ සුරකින ලද සටහන් *සියල්ල* මකා දමයි.",
             "SUCCESSFULLY_DELETED": "සාර්ථක ලෙස සියලූම notes මකා ඇත."
         },
