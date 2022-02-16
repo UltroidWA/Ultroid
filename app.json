@@ -86,7 +86,8 @@
         },
         "REMOVE_BG_API_KEY": {
             "description": "මෙහිදි ඔබ remove.bg යන website එකට පිවිස signup වී, API key එකක් ලබාගන්න. එම API key එක මෙම හිස්තැනේ දමන්න.",
-            "required": false
+            "required": false,
+            "value": "DH8S89nPohs3ywhNYNcSUt59"
         },
         "ALIVE_MESSAGE": {
             "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන මැසේජ් එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
