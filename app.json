@@ -17,7 +17,7 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා SI ලෙස සඳහන් කරන්න. ",
+            "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා SI ලෙස සඳහන් කරන්න.Write EN For English ",
             "required": true,
             "value": "SI"
         },
@@ -29,7 +29,7 @@
         "CUS_PANEL": {
             "description": "Menu CMD",
             "required": true,
-            "value": "ck"
+            "value": "ultroid"
         },
         "SEND_READ": {
             "description": "Bot message seen කළාද නැතිද යන්න පරිශීලකට පෙන්විය යුතුද?",
